@@ -102,6 +102,10 @@ run = 'layout floating'
 if.app-id = 'com.apple.reminders'
 run = 'layout floating'
 
+[[on-window-detected]]
+if.app-id = 'com.apple.AppStore'
+run = 'layout floating'
+
 
 ########################
 # Move apps on startup #
