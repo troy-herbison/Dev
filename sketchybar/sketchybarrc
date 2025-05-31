@@ -7,7 +7,7 @@ ITEM_DIR="$CONFIG_DIR/items"
 # If you are looking for other colors, see the color picker:
 # https://felixkratz.github.io/SketchyBar/config/tricks#color-picker
 
-sketchybar --bar position=right height=40 blur_radius=30 color=0x40000000
+sketchybar --bar position=right height=40 blur_radius=30 color=0x40000000 display=main margin=0 padding_left=5 padding_right=0
 
 default=(
   padding_left=5
@@ -26,6 +26,6 @@ sketchybar --default "${default[@]}"
 # Add aerospace spaces
 source "$ITEM_DIR/spaces.sh"
 
-
 ##### Force all scripts to run the first time (never do this in a script) #####
 sketchybar --update
+
